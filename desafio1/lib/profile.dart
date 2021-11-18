@@ -25,7 +25,7 @@ class _ProfileState extends State<Profile> {
             Positioned(
               child: Container(
                 color: Colors.transparent,
-                height: MediaQuery.of(context).size.height * 0.40,
+                height: MediaQuery.of(context).size.height * 0.35,
                 width: MediaQuery.of(context).size.width * 1,
                 child: Stack(
                   children: [
@@ -64,7 +64,7 @@ class _ProfileState extends State<Profile> {
                                       textStyle: const TextStyle(
                                           color: Colors.black,
                                           decoration: TextDecoration.none,
-                                          fontSize: 30,
+                                          fontSize: 26,
                                           fontWeight: FontWeight.w900)))
                             ],
                           ),
@@ -85,7 +85,7 @@ class _ProfileState extends State<Profile> {
                                     textStyle: const TextStyle(
                                         color: Colors.black54,
                                         decoration: TextDecoration.none,
-                                        fontSize: 15,
+                                        fontSize: 12,
                                         fontWeight: FontWeight.w500)))
                           ],
                         ),
@@ -108,7 +108,7 @@ class _ProfileState extends State<Profile> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 40),
+                              padding: const EdgeInsets.only(top: 30),
                               child: TextButton(
                                 style: ButtonStyle(
                                   shape: MaterialStateProperty.all<
@@ -150,7 +150,7 @@ class _ProfileState extends State<Profile> {
             Positioned(
                 bottom: MediaQuery.of(context).size.height * 0.00,
                 child: Container(
-                  height: MediaQuery.of(context).size.height * 0.55,
+                  height: MediaQuery.of(context).size.height * 0.60,
                   width: MediaQuery.of(context).size.width * 1,
                   decoration: const BoxDecoration(
                       color: Colors.white,
