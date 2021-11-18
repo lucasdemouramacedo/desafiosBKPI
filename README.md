@@ -1,5 +1,5 @@
 # desafiosBKPI-
 
 <p align="center">
-  <img src="screenshot.jpg" width="350" title="hover text">
+  <img src="screenshot.jpg" width="300" title="Desafio 1">
 </p>
